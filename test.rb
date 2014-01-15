@@ -1,3 +1,8 @@
+# ctrl+b is the command to get ruby to run...
+# else, get the command center open and then ruby + docname done
+
+
+=begin
 puts 'hello world'
 x = 'coding dojo'
 
@@ -20,5 +25,29 @@ puts 'testing for non-caps ' + x
 puts 'this word has the world dojo ' if x.include?('Dojo')
 puts "this word has the world 'dojo ' " if x.include?('dojo')
 
-# ctrl+b is the command to get ruby to run...
-# else, get the command center open and then ruby + program done
+x = 'john, charles, matt, joe'
+
+puts x.split(',')		#splits up the array into multiple items, taking out the commas
+puts x.split(',').to_s  #sends the result into a string
+
+=end
+y = ''
+
+puts 'y is empty' if y.empty?
+
+puts 'hello' + 'testing if all one line'
+puts 'new line'
+
+print 'hello '
+print 'am I on a new line??' 
+
+BEGIN{
+	puts 'helo, mate'
+}
+
+END{
+	puts 'this should be at the end'
+}
+
+
+
