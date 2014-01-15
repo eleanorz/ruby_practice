@@ -78,4 +78,13 @@ branch3 = CodingDojo.new(155, "seattle CodingDojo", "bellevue, WA","whatever")
 branch3.displayAll
 
 
+a = ['matz', 'guido', 'dojo', 'choi', 'john']
+b = [5, 6, 7, 8, 9]
+c = ['dojo', 9]
 
+#adds in a comma and quotes with the %w
+d = %w[me you us]
+
+puts b
+puts d
+puts c
